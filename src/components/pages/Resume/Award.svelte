@@ -13,12 +13,11 @@
     </div>
     <span class="block uppercase">{award.title}</span>
     <span class="block issued-by">{award.issuedBy}</span>
-    <div class="description">{award.description}</div>
 </div>
 
 <style>
     .award {
-        min-height: 180px;
+        min-height: 130px;
     }
 
     .award:last-of-type {

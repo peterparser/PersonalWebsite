@@ -8,19 +8,12 @@ export default {
     icon: 'mdi-tie',
     data: [
       {
-        title: 'Spider-Man',
-        start: '06/2010',
+        title: 'Infrastructure Engineer',
+        start: '03/2021',
         end: 'present',
-        company: 'Spider-Verse',
-        description: 'Swinging from building to building, fighting bad guys and making a difference in the world.'
-      },
-      {
-        title: 'Journalist',
-        start: '06/2010',
-        end: 'present',
-        company: 'Freelance',
-        description: 'Taking selfies secretly and selling them to newspapers, it\s a win win, right?'
-      },
+        company: 'Var Group',
+        description: 'Bootstrapped and actually leading the Open Source Team techically-wise'
+      }
     ]
   },
   education: {
@@ -28,34 +21,89 @@ export default {
     icon: 'mdi-school',
     data: [
       {
-        major: 'Journalism',
-        start: '09/2014',
-        end: '07/2018',
-        institute: 'High School',
-        description: 'Hanging out with Ned and MJ, throwing house parties, city parties and all kind of parties.'
+        major: 'MSc. Computer Engineering',
+        start: '03/2021',
+        end: '08/2015',
+        institute: 'Università di Bologna',
+        description: 'Computer Engineering path, with a very insightful course on Linux sysadmin skills and AI'
       },
     ]
   },
+  /*  
   certificatesAndAwards: {
-    title: 'Certificates/Awards',
-    icon: 'mdi-medal',
+    title: 'Certifications',
+    icon: 'mdi-certificate',
     data: [
       {
-        title: 'Key of LA',
-        date: '14/07/2020',
-        issuedBy: 'Los Angeles Major',
-        description: 'I was honered to be given the key to the city by the Los Angeles Major. #goals'
+        title: 'Red Hat Certified Architect in Infrastructure',
+        date: '31 oct 2022',
+        issuedBy: 'Red Hat',
+        description: ''
       },
       {
-        title: 'Best Costume',
-        date: '19/12/2019',
-        issuedBy: 'Marvel Comics',
-        description: 'Got the award for the best costume ever made on Marvel Comics, gotta love it.'
+        title: 'Red Hat Certified Specialist in Enterprise Application Server Administration',
+        date: '05 jul 2023',
+        issuedBy: 'Red Hat',
+        description: ''
       },
+      {
+        title: 'Red Hat Certified Instructor',
+        date: '31 oct 2022',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified Specialist in MultiCluster Management',
+        date: '31 oct 2022',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified in Openshift Data Foundation',
+        date: '05 oct 2022',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Certified Kubernetes Administrator',
+        date: '14 may 2022',
+        issuedBy: 'The Linux Foundation',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified Specialist in OpenShift Application Development',
+        date: '10 jan 2022',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified Specialist in Openshift Administration',
+        date: '21 jul 2021',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified Engineer',
+        date: '28 apr 2021',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified Specialist in Containers and Kubernetes',
+        date: '07 apr 2021',
+        issuedBy: 'Red Hat',
+        description: ''
+      },
+      {
+        title: 'Red Hat Certified System Administrator',
+        date: '21 apr 2021',
+        issuedBy: 'Red Hat',
+        description: ''
+      }
     ]
   },
-  academic: {
-    title: 'Academic',
+/*  academic: {
+/    title: 'Academic',
     icon: 'mdi-library-shelves',
     data: [
       {
@@ -66,68 +114,98 @@ export default {
       },
     ]
   },
+*/
   skills: [
     {
-      title: 'Swinging',
+      title: 'Infrastructure',
       barType: 'line',
-      icon: 'mdi-web',
+      icon: 'mdi-server',
       items: [
         {
-          title: 'Horizontally',
-          level: 80
+          title: 'Openshift',
+          level: 100
         },
         {
-          title: 'Vertically',
+          title: 'Kubernetes',
           level: 90
+        },
+        {
+          title: 'Ansible',
+          level: 100
+        },
+        {
+          title: 'Linux',
+          level: 100
+        },
+        {
+          title: 'VMware',
+          level: 50
+        },
+        {
+          title: 'Windows',
+          level: 20
         },
       ]
     },
     {
-      title: 'Design',
+      title: 'Devops Toolchain',
       barType: 'line',
-      icon: 'mdi-brush-variant',
+      icon: 'mdi-server',
       items: [
         {
-          title: 'Web Design',
-          level: 85
+          title: 'GIT',
+          level: 100
         },
         {
-          title: 'Photoshop',
-          level: 90
+          title: 'Helm',
+          level: 100
         },
         {
-          title: 'After Effects',
+          title: 'Kustomize',
           level: 80
+        },
+        {
+          title: 'ArgoCD',
+          level: 80
+        },
+        {
+          title: 'Tekton',
+          level: 70
+        }
+      ]
+    },
+    {
+      title: 'Programming Languages',
+      barType: 'line',
+      icon: 'mdi-script',
+      items: [
+        {
+          title: 'Bash',
+          level: 100
+        },
+        {
+          title: 'Python',
+          level: 70
+        },
+        {
+          title: 'Java / Quarkus',
+          level: 30
         },
       ]
     },
+    
     {
       title: 'Languages',
       barType: 'dots',
       icon: 'mdi-earth',
       items: [
         {
-          title: 'Albanian',
+          title: 'Italian',
           level: 100
         },
         {
           title: 'English',
-          level: 94
-        },
-      ]
-    },
-    {
-      title: 'Knowledge',
-      barType: 'dots',
-      icon: 'mdi-book-open-page-variant',
-      items: [
-        {
-          title: 'Web shoot',
-          level: 94
-        },
-        {
-          title: 'Taking pictures',
-          level: 91
+          level: 80
         },
       ]
     }

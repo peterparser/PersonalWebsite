@@ -1,25 +1,30 @@
 export default {
   name: 'about', // do not change
   pageTitle: 'About',
-  icon: 'mdi-account-cowboy-hat',
+  icon: 'mdi-account',
 
-  greeting: 'Hello, I am Peter Parker.',
-  description: 'American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider. As a result of the bite, he gains superhuman strength, speed, and agility, along with the ability to cling to walls, turning him into Spider-Man.',
+  greeting: 'Hello, I am Massimo Schembri.',
+  description: 'I\'m a very curious guy, especially when we are talking about IT things or games. Actually I am working very hard in the field of containers and automation, GitOps methodologies and kubernetes as the driver for my learning and working.',
   birthYear: '1996',
-  residence: 'USA',
+  residence: 'Italy',
   freelance: 'Unavailable',
-  address: 'Los Angeles, CA',
+  address: 'Bologna, IT',
   quote: 'An ambitious man either wins or learns.',
   hobbies: [
     {
-      title: 'Table Tennis',
-      icon: 'mdi-table-tennis',
-      description: 'A terrific game to play, keeps one\'s mind sharp and ready.'
+      title: 'Personal Finance',
+      icon: 'mdi-finance',
+      description: 'Is a very cool topic and money management is very important!'
     },
     {
-      title: 'Football',
-      icon: 'mdi-soccer',
-      description: 'Who would not enjoy a match with friends on a friday evening?'
+      title: 'Cooking',
+      icon: 'mdi-chef-hat',
+      description: 'Being able to make something good/new to eat for my friends and me makes me very happy!'
+    },
+    {
+      title: 'Blockchain',
+      icon: 'mdi-currency-eth',
+      description: 'My newest hobby, I am trying to learn about SmartContracts, Oracles and so on...'
     },
   ]
 };
