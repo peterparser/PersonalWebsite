@@ -117,7 +117,7 @@ export default {
 */
   skills: [
     {
-      title: 'Infrastructure',
+      title: 'Infrastructure & Cloud',
       barType: 'line',
       icon: 'mdi-server',
       items: [
@@ -138,7 +138,11 @@ export default {
           level: 100
         },
         {
-          title: 'VMware',
+          title: 'VSphere',
+          level: 55
+        },
+        {
+          title: 'AWS',
           level: 50
         },
         {

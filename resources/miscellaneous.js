@@ -7,7 +7,7 @@ export const meta = [
   },
   {
     name: 'keywords',
-    content: 'massimo,schembri,devops,kubernetes,ansible,platform,python'
+    content: 'massimo,schembri,redhat,devops,kubernetes,ansible,platform,python'
   }
 ];
 export const landingPage = 'about';
