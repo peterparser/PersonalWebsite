@@ -4,7 +4,7 @@ export default {
   fullName: 'Massimo Schembri',
   profession: '{Devops, Infrastructure, Platform} Engineer',
   cv: {
-    url: 'http://www.msnlabs.com/img/resume-sample.pdf',
+    url: 'CV.pdf',
     icon: 'mdi-download'
   },
   email: {
