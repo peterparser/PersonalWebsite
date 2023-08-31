@@ -4,7 +4,7 @@ export default {
   fullName: 'Massimo Schembri',
   profession: '{Devops, Infrastructure, Platform} Engineer',
   cv: {
-    url: 'CV.pdf',
+    url: './CV.pdf',
     icon: 'mdi-download'
   },
   email: {
