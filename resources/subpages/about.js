@@ -9,7 +9,7 @@ export default {
   residence: 'Italy',
   freelance: 'Unavailable',
   address: 'Bologna, IT',
-  quote: '',
+  quote: 'If there is a solution to a problem, there is no need to worry. And if there is no solution, there is no need to worry',
   hobbies: [
     {
       title: 'Personal Finance',
