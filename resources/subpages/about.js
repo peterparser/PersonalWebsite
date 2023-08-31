@@ -9,7 +9,7 @@ export default {
   residence: 'Italy',
   freelance: 'Unavailable',
   address: 'Bologna, IT',
-  quote: 'An ambitious man either wins or learns.',
+  quote: '',
   hobbies: [
     {
       title: 'Personal Finance',
