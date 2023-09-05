@@ -197,6 +197,21 @@ export default {
         },
       ]
     },
+    {
+      title: 'Skills in progress',
+      barType: 'line',
+      icon: 'mdi-star-circle',
+      items: [
+        {
+          title: 'Terraform / Terragrunt',
+          level: 90
+        },
+        {
+          title: 'Elasticsearch',
+          level: 30
+        },
+      ]
+    },
     
     {
       title: 'Languages',
