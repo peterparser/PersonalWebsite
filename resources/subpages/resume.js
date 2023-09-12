@@ -192,6 +192,10 @@ export default {
           level: 70
         },
         {
+          title: 'Go',
+          level: 30
+        },
+        {
           title: 'Java / Quarkus',
           level: 30
         },
