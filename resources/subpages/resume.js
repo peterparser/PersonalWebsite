@@ -8,9 +8,16 @@ export default {
     icon: 'mdi-tie',
     data: [
       {
+        title: 'Site Reliability Engineer',
+        start: '11/2023',
+        end: 'present',
+        company: 'Sysdig',
+        description: 'SRE for on-prem customers'
+      },
+      {
         title: 'Infrastructure Engineer',
         start: '03/2021',
-        end: 'present',
+        end: '11/2023',
         company: 'Var Group',
         description: 'Bootstrapped and actually leading the Open Source Team techically-wise'
       }
