@@ -20,11 +20,6 @@ export default {
       title: 'Cooking',
       icon: 'mdi-chef-hat',
       description: 'Being able to make something good/new to eat for my friends and me makes me very happy!'
-    },
-    {
-      title: 'Blockchain',
-      icon: 'mdi-currency-eth',
-      description: 'My newest hobby, I am trying to learn about SmartContracts, Oracles and so on...'
-    },
+    }
   ]
 };
